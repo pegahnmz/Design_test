@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.container{}
+button{
+    border: none;
+    outline: none;
+    list-style: none;
+    appearance: none;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.p_btn{
+    background-color: var(--border-color);
+    background-size: 600% 500%;
+    transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(to right,
+    transparent, 
+     transparent, 
+     
+     rgba(231, 130, 67, 0.688),
+     rgba(243, 93, 12, 0.347));
+    &:hover{
+        background-color: var(--main-color);
+        color: snow;
+        cursor: pointer;
+        background-position: 80% 0%;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+i{
+    font-weight: lighter;
+    
+}
+ul,li{
+    list-style: none;
+}
+
+input{
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
